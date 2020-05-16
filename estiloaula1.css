@@ -1,0 +1,38 @@
+body {
+	background-image: url("fundotela.png");
+	background-size: auto 600vh;
+	font-family: Arial;
+	height: 100vh; /**fixa a altura do body.**/
+}
+
+.menu {
+	background-color: white; /**cor de fundo.**/
+}
+
+.menu li {
+	list-style: none; /**tira a bolinha da lista.**/
+}
+
+.menu ul {
+	display: flex; /**faz com que os itens fiquem em linha, um do lado do outro.**/
+	justify-content: space-around; /**Só funciona com o display flex. Coloca espaço em volta das colunas.**/
+}0
+
+a {
+	color: teal;
+	text-decoration: none; /**tira o traço.**/
+}
+
+a:hover {
+	text-decoration: underline; /**faz com que os itens fiquem com traço em baixo quando passa o mouse.**/
+}
+
+.site-subtitle,
+.site-title {
+	color: whitesmoke;
+	text-align: center; /**centraliza o texto.**/
+}
+
+.site-subtitle {
+	font-style: italic;
+}
